@@ -1,0 +1,24 @@
+{
+  "name": "ghost-keyboard",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoscheuermann/ghost-keyboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaoscheuermann/ghost-keyboard/issues"
+  },
+  "homepage": "https://github.com/joaoscheuermann/ghost-keyboard#readme",
+  "devDependencies": {
+    "jest": "^27.0.5",
+    "puppeteer": "^10.0.0"
+  }
+}
