@@ -1,5 +1,5 @@
 {
-  "name": "ghost-keyboard",
+  "name": "pptr-human-keyboard",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joaoscheuermann/ghost-keyboard.git"
+    "url": "git+https://github.com/joaoscheuermann/pptr-human-keyboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joaoscheuermann/ghost-keyboard/issues"
+    "url": "https://github.com/joaoscheuermann/pptr-human-keyboard/issues"
   },
-  "homepage": "https://github.com/joaoscheuermann/ghost-keyboard#readme",
+  "homepage": "https://github.com/joaoscheuermann/pptr-human-keyboard#readme",
   "devDependencies": {
     "jest": "^27.0.5",
     "puppeteer": "^10.0.0"
