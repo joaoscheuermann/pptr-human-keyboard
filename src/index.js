@@ -65,7 +65,7 @@ exports.createKeyboard = page => {
           const _char = chars[random(0, chars.length - 1)]
 
           await page.keyboard.type(_char, {
-            delay: random(1, 10) * 25
+            delay: random(1, 5) * 25
           })
 
           await sleep(random(1, 5) * 50)
@@ -74,11 +74,11 @@ exports.createKeyboard = page => {
             delay: random(1, 10) * 25
           })
 
-          await sleep(random(5, 10) * 50)
+          await sleep(random(5, 5) * 25)
         }
 
         await page.keyboard.type(char, {
-          delay: random(1, 10) * 50
+          delay: random(1, 5) * 30
         })
       }
     }
