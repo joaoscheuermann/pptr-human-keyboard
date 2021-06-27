@@ -54,14 +54,14 @@ exports.createKeyboard = page => {
   }
 
   return {
-    type: async text => {
+    type: async (text, canMissWhenTyping = true) => {
       const chars = text.split('')
 
       for (const char of chars) {
         const miss = random(0, 100) > 90
         const chars = findCharNeightborsChars(char)
 
-        if (miss && chars.length) {
+        if (canMissWhenTyping && miss && chars.length) {
           const _char = chars[random(0, chars.length - 1)]
 
           await page.keyboard.type(_char, {
