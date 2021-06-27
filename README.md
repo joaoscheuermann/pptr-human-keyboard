@@ -4,7 +4,7 @@ This library helps emulating the human typing behavior on Puppeteer.
 
 ## Instalation
 
-``` npm install pptr-human-keyboard ````
+``` npm install pptr-human-keyboard ```
 
 ## Usage
 ```js
